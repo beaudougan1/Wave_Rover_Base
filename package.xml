@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>wave_rover_base</name>
+  <version>0.0.0</version>
+  <description>ROS 2 base driver for Waveshare Wave Rover over USB serial</description>
+
+  <maintainer email="ubuntu@localhost">ubuntu</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
+
+  <exec_depend>python3-serial</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
